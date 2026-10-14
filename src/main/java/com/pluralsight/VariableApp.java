@@ -2,26 +2,26 @@ package com.pluralsight;
 
 public class VariableApp {
     public static void main(String[] args) {
-        String fullName = "Tony Zhang";
         String favoriteColor = "purple";
-        int age = 21;
-        boolean isSunny = true;
+        int year = 2026;
         char firstInitial = 'T';
+        boolean hasPets = false;
+        String saying = "Have a nice day";
 
-        System.out.println("My name is " + fullName);
         System.out.println("My favorite color is " + favoriteColor);
-        System.out.println("My age is " + age);
-        System.out.println("Is it sunny?: " + isSunny);
+        System.out.println("I started this class in " + year);
         System.out.println("My first initial is: " + firstInitial);
+        System.out.println("Do I have pets?: " + hasPets);
+        System.out.println(saying);
 
-        double weight = 125.4;
-        int siblings = 2;
-        String favoriteGame = "Deadlock";
-        float pi = 3.1415f;
+        int daysInWeek = 7;
+        double priceOfCoffee = 4.99;
+        char favoriteLetter = 'Z';
+        boolean isRaining = false;
 
-        System.out.println("I weigh " + weight + " pounds");
-        System.out.println("I have " + siblings + " siblings");
-        System.out.println("My favorite game is " + favoriteGame);
-        System.out.println("Pi is about " + pi);
+        System.out.println("The amount of days in the week is " + daysInWeek);
+        System.out.println("The price of coffee is " + priceOfCoffee + "$");
+        System.out.println("My favorite letter is " + favoriteLetter);
+        System.out.println("Is it raining?: " + isRaining);
     }
 }
